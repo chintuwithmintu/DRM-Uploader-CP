@@ -33,26 +33,26 @@ getstatusoutput(f"wget {photo1} -O 'photo.jpg'")
 photo = "photo.jpg"
 
 credit ="😎𝖘:)™~" 
-OWNER = int(os.environ.get("OWNER", 6530997270))
+OWNER = int(os.environ.get("OWNER", 7618270428))
 try: 
     ADMINS=[] 
-    for x in (os.environ.get("ADMINS", "6530997270").split()):  
+    for x in (os.environ.get("ADMINS", "7618270428").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
         raise Exception("Your Admins list does not contain valid integers.") 
 ADMINS.append(OWNER)
 
 bot = Client("bot",    
-   bot_token="",    
-   api_id= ,    
-   api_hash= ""
+   bot_token="7302467978:AAH_izvLk8Uvu0exjWXJ_7C-7JiroN3i94M",    
+   api_id= 29940750 ,    
+   api_hash= "33412ad3b366ca991309d1bcbb472c32"
 )
 
-@bot.on_message(filters.command(["started"]))    
+@bot.on_message(filters.command(["chalu"]))    
 async def account_login(bot: Client, m: Message):    
     editable = await m.reply_text("**👋 ʜᴇʟʟᴏ!\n🌟ɪ ᴀᴍ ᴛxᴛ ꜰɪʟᴇ ᴅᴏᴡʟᴏᴀᴅᴇʀ ʙᴏᴛ** \n\n❤️‍🔥 **ᴘʀᴇꜱꜱ /scammer ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ʙʏ ᴛxᴛ**\n\n❤️‍🩹 **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/'>ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ</a>** \n\n<pre>💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : https://t.me/ScmersHell</pre>\n-═════━‧₊˚❀༉‧₊˚.━═════-") 
 
-@bot.on_message(filters.command("Ruko"))    
+@bot.on_message(filters.command("band"))    
 async def restart_handler(_, m):    
     await m.reply_text("🚯 **ꜱᴛᴏᴘᴘᴇᴅ** 🚯", True)    
     os.execl(sys.executable, sys.executable, *sys.argv)
@@ -80,7 +80,7 @@ async def download_pdf(url, filename):
         raise
 
 
-@bot.on_message(filters.command(["Sorry"]))    
+@bot.on_message(filters.command(["txt"]))    
 async def account_login(bot: Client, m: Message):    
     editable = await m.reply_text('**-═════━‧₊˚❀༉‧₊˚.━═════-\n📝 ꜱᴇɴᴅ ᴛxᴛ ꜰɪʟᴇ ꜰᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ**\n-═════━‧₊˚❀༉‧₊˚.━═════-')
     input: Message = await bot.listen(editable.chat.id)
